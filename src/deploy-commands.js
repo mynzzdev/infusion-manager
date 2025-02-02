@@ -1,1 +1,3 @@
-// If skibidi is alpha then be a beta
+const { Client, Events, GatewayIntentBits} = require('discord.js');
+
+const client = new Client({ intents: [GatewayIntentBits.Guilds] });
